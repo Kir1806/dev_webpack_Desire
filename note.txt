@@ -1,0 +1,34 @@
+- что это
+group-css-media-queries-loader - загрузчик групповых медиазапросов
+html-loader
+---------------------dev dependencies
+Узнать и по необходимости установить
+
+@babel/cli +
+babel-preset-env +
+
+clean-webpack-plugin
+copy-webpack-plugin
+
+cross-env
+file-loader
+gh-pages
+
+image-webpack-loader
+
+optimize-css-assets-webpack-plugin - ставить не надо
+
+path
+
+webpack-md5-hash - удалил  из-за неработоспособности в сборке
+
+--------------dependencies
+
+babel-polyfill +
+core-js +
+
+
+
+
+
+

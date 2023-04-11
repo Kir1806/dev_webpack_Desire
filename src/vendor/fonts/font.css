@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Museo Extra Bold";
+    src: url("https://www.technodom.kz/under/tab_showcase/fonts/MUSEOSANSCYRL_4.OTF");
+}
+
+@font-face {
+    font-family: "Museo Thin";
+    src: url("https://www.technodom.kz/under/tab_showcase/fonts/MUSEOSANSCYRL_5.OTF");
+}
+
+@font-face {
+    font-family: "Museo Light";
+    src: url("https://www.technodom.kz/under/tab_showcase/fonts/MUSEOSANSCYRL_6.OTF");
+}
+
+@font-face {
+    font-family: "Museo Regular";
+    src: url("https://www.technodom.kz/under/tab_showcase/fonts/MUSEOSANSCYRL_7.OTF");
+}
+
+@font-face {
+    font-family: "Museo Bold";
+    src: url("https://www.technodom.kz/under/tab_showcase/fonts/MUSEOSANSCYRL.OTF");
+}
