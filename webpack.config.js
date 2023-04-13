@@ -16,7 +16,7 @@ module.exports = {
         filename: 'index.js', //'[name].[chunkhash].js', // '[chunkhash].[id].chunk.js', //'[name].[chunkhash].js', //'bundle.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true, //очищать dist перед повторным npm run build
-        assetModuleFilename: 'assets/images/[name][ext]', //если название папки с картинками другое, не забудьте поменять
+        assetModuleFilename: 'assets/images/[name].[contenthash].[ext]', //если название папки с картинками другое, не забудьте поменять
         environment: {
             arrowFunction: false,
         },
