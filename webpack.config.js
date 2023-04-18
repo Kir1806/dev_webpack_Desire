@@ -6,6 +6,7 @@ const path = require("path");
 //Плагины
 const HtmlWebpackPlugin = require("html-webpack-plugin");//
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");//
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 
 // const WebpackMd5Hash = require("webpack-md5-hash");
