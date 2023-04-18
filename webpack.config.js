@@ -72,8 +72,7 @@ module.exports = {
             template: 'src/index.html',
             filename: 'index.html'
         }),
-        new MiniCssExtractPlugin()
-        // new WebpackMd5Hash()
+        new MiniCssExtractPlugin()        
     ],
     devServer: {
         watchFiles: ["src/*.html"]
