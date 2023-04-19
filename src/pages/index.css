@@ -1,19 +1,4 @@
 @import url('../vendor/font.css');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;    
-}
-.title {
-    color: red;
-    font-family: 'Museo Extra Bold';
-    font-size: 64px;
-    text-align: center;
-}
-
-.title__image {
-    width: 50%;
-    
-}
+@import url('../blocks/global/global.css');
 

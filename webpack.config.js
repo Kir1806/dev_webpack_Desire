@@ -8,11 +8,26 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");//
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");//
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
+let mode = 'development';
+if (process.env.NODE_ENV === 'production') {
+  mode = 'production';
+}
 
-// const WebpackMd5Hash = require("webpack-md5-hash");
+const plugins = [
+    new HtmlWebpackPlugin({
+      template: './src/index.html', // Данный html будет использован как шаблон
+    }),
+    new MiniCssExtractPlugin({
+        filename: '[name].[contenthash].css', // Формат имени файла
+      }), // Добавляем в список плагинов
+  ]; // Создаем массив плагинов
 
 module.exports = {
+    mode,
+    plugins,
+    devtool: 'source-map',
     entry: './src/scripts/index.js',
+
     output: {
         filename: 'index.js', //'[name].[chunkhash].js', // '[chunkhash].[id].chunk.js', //'[name].[chunkhash].js', //'bundle.js',
         path: path.resolve(__dirname, 'dist'),
@@ -22,10 +37,11 @@ module.exports = {
             arrowFunction: false,
         },
     },
+    
     module: {
         rules: [
             {
-                test: /\.html$/i,
+                test: /\.(html)$/i,
                 loader: "html-loader",
             },
             {
@@ -67,15 +83,22 @@ module.exports = {
             },
         ],
     },
+    optimization: {
+        minimizer: [
+            '...',
+            new CssMinimizerPlugin(),
+        ],
+    },
     plugins: [
         new HtmlWebpackPlugin({
             // inject: false,
             template: 'src/index.html',
             filename: 'index.html'
         }),
-        new MiniCssExtractPlugin()        
+        new MiniCssExtractPlugin({filename: 'styles/[name].[contenthash].css'})        
     ],
     devServer: {
-        watchFiles: ["src/*.html"]
+        watchFiles: ["src/*.html"],
+        hot: true
     }
 };
