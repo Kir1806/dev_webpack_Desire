@@ -1,0 +1,10 @@
+.header__button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.header__button-menu {
+    display: none;
+}

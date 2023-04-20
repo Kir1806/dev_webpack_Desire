@@ -1,0 +1,17 @@
+@import url('../__list/_active/menu__list-link--active.css');
+
+.menu__list {
+    display: flex;
+}
+.menu__list-item {
+    padding-left: 35px;
+    padding-right: 45px;
+    list-style-type: none;
+}
+.menu__list-link {
+    color: rgba(54, 56, 56, 0.9033);
+    line-height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
