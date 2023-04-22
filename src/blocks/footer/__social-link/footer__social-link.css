@@ -1,0 +1,21 @@
+@import url('./_facebook/footer__social-link--facebook.css');
+@import url('./_instagram/footer__social-link--instagram.css');
+@import url('./_pinterest/footer__social-link--pinterest.css');
+@import url('./_whatsapp/footer__social-link--whatsapp.css');
+@import url('./_youtube/footer__social-link--youtube.css');
+
+
+.footer__social-link {
+    padding-left: 28px;
+    position: relative;
+    color: #707070;  
+}
+
+.footer__social-link::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+}

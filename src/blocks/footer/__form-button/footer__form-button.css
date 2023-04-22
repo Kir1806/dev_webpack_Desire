@@ -1,0 +1,11 @@
+.footer__form-button {
+    background-color: var(--title);
+    border: none;
+    color: #fffff0;
+    border-radius: 21px;
+    font-weight: 600;
+    padding: 6px 12px;
+    min-width: 160px;
+    margin-left: 9px;
+    cursor: pointer;
+}

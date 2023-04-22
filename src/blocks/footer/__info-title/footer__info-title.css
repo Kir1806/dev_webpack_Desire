@@ -1,0 +1,7 @@
+.footer__info-title{
+    color: var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 14px;
+    line-height: 23px;
+}

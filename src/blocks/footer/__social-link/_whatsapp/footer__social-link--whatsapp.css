@@ -1,0 +1,5 @@
+.footer__social-link--whatsapp::before {
+    background-image: url('../../../../images/whatsapp.svg');
+    width: 14px;
+    height: 14px;
+}

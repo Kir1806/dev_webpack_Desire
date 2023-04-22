@@ -1,0 +1,10 @@
+@import url('./__list/breadcrumbs__list.css');
+@import url('./__item/breadcrumbs__item.css');
+@import url('./__link/breadcrumbs__link.css');
+
+.breadcrumbs {
+    background: rgba(#dfdfdf, .5);
+    padding: 13px 14px;
+    position: relative;
+    z-index: 9;
+}

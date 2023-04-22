@@ -1,0 +1,6 @@
+.footer__social-link--youtube::before {
+    background-image: url('../../../../images/youtube.svg');
+    width: 18px;
+    height: 12px;
+    top: 4px;
+}

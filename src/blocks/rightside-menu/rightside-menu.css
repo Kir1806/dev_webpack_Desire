@@ -1,0 +1,21 @@
+@import url('./_close/rightside-menu--close.css');
+@import url('./__close/rightside-menu__close.css');
+@import url('./__content/rightside-menu__content.css');
+@import url('./__logo/rightside-menu__logo.css');
+@import url('./__title/rightside-menu__title.css');
+@import url('./__text/rightside-menu__text.css');
+@import url('./__images/rightside-menu__images.css');
+
+.rightside-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 694px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 40px;
+    box-shadow: -2px 3px 17px 0 #000;
+    transition: all .5s;
+    z-index: 10;
+}

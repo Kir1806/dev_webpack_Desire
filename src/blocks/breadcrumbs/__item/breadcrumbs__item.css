@@ -1,0 +1,12 @@
+.breadcrumbs__item {
+    position: relative;
+    padding-right: 8px;
+}
+
+.breadcrumbs__item::after {
+    content: '/';
+    position: absolute;
+}
+.breadcrumbs__item:last-child::after {
+    display: none;
+}

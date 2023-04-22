@@ -1,0 +1,19 @@
+@import url('./__content/footer__content.css');
+@import url('./__inner/footer__inner.css');
+@import url('./__info/footer__info.css');
+@import url('./__info-title/footer__info-title.css');
+@import url('./__info-text/footer__info-text.css');
+@import url('./__form/footer__form.css');
+@import url('./__form-input/footer__form-input.css');
+@import url('./__form-button/footer__form-button.css');
+@import url('./__social/footer__social.css');
+@import url('./__social-link/footer__social-link.css');
+@import url('./__social-item/footer__social-item.css');
+@import url('./__menu-item/footer__menu-item.css');
+@import url('./__menu-link/footer__menu-link.css');
+@import url('./__menu/footer__menu.css');
+@import url('./__copyright/footer__copyright.css');
+
+.footer {
+    border: 1px solid red;
+}
