@@ -43,6 +43,9 @@ header
 footer&rightsideMenu
 перенести breadcrumbs из индекса
 
+add-swiper
+кастомизировать буллиты
+
 
 
 

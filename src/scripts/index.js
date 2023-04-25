@@ -1,5 +1,7 @@
 import "../pages/index.css";
 
+import { topSwiper }from './components/swiper';
+
 const headerButton = document.querySelector('.header__button');
 const rightsideMenu = document.querySelector('.rightside-menu');
 const rightsideMenuClose = document.querySelector('.rightside-menu--close');

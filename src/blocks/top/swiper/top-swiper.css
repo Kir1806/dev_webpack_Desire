@@ -1,0 +1,12 @@
+.top-pagination {
+    display: inline-block;
+    text-align: center;  
+    --swiper-pagination-bullet-size: 10px; 
+    --swiper-pagination-bullet-active-color: #000; 
+    
+}
+.swiper-pagination-bullet-active {
+    background: red;
+    
+    
+}

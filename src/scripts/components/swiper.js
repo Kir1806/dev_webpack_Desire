@@ -1,8 +1,15 @@
-import Swiper, { Navigation, Pagination } from "swiper";
+import Swiper, { Pagination } from "swiper";
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import '../../../node_modules/swiper/swiper-bundle.min.css';
+// Swiper.use([Pagination]);
 
-const swiper = new Swiper('.swiper', {
-    modules: [Navigation, Pagination],
+const topSwiper = new Swiper('.top-swiper', {
+    modules: [Pagination],
+    loop: true,
+    pagination: {
+        el: '.top-swiper-pagination',
+        type: 'bullets',
+    },
 });
+
+export {topSwiper};
