@@ -1,0 +1,19 @@
+.top__slider-title {
+    color: var(--title);
+    font-size: 110px;
+    line-height: 135px;
+    padding-bottom: 26px;
+    margin-bottom: 26px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+}
+.top__slider-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 185px;
+    height: 1px;
+    background-color: #6d7278;
+}

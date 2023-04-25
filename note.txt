@@ -39,6 +39,9 @@ intermediate stable -
 intermediate stable 2 -
 настроил минификацию css, но с конфигом webpack необходимо разобраться!!!
 
+header
+footer&rightsideMenu
+перенести breadcrumbs из индекса
 
 
 

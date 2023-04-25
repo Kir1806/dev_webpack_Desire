@@ -1,0 +1,5 @@
+.top__slider-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}

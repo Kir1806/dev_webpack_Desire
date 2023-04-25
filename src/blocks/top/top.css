@@ -1,0 +1,11 @@
+@import url('./__inner/top__inner.css');
+@import url('./__slider-item/top__slider-item.css');
+@import url('./__slider-img/top__slider-img.css');
+@import url('./__slider-info/top__slider-info.css');
+@import url('./__slider-title/top__slider-title.css');
+@import url('./__slider-text/top__slider-text.css');
+
+.top {
+    border: 1px solid red;
+
+}
