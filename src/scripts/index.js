@@ -14,4 +14,4 @@ rightsideMenuClose.addEventListener('click', () => {
     rightsideMenu.classList.add('rightside-menu--close');
 });
 
-console.log("Сборка работает!!!!")
+console.log("Сборка работает!!!!");

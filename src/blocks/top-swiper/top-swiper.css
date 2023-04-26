@@ -1,0 +1,16 @@
+.top-pagination {
+    display: inline-block;
+    text-align: center;  
+    --swiper-pagination-bullet-size: 8px;
+    --swiper-pagination-bullet-horizontal-gap: 30px;    
+}
+.top-pagination .swiper-pagination-bullet {
+    --swiper-pagination-bullet-inactive-color: #363838;
+    --swiper-pagination-bullet-inactive-opacity: 1;
+}
+
+.top-pagination .swiper-pagination-bullet-active {
+    --swiper-pagination-color: #ffef35; 
+    --swiper-pagination-bullet-inactive-color: #000;
+      
+}
