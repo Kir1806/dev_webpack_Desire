@@ -44,7 +44,11 @@ footer&rightsideMenu
 перенести breadcrumbs из индекса
 
 add-swiper
-кастомизировать буллиты
+кастомизировать буллиты - выполнено
+
+.collection__item:hover .collection_info{
+    opacity: 1;
+} разобраться со специфичностью - работает
 
 
 

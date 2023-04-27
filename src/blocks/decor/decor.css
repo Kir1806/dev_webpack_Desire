@@ -1,0 +1,9 @@
+@import url('./__title/decor__title.css');
+@import url('./__text/decor__text.css');
+
+.decor {
+    padding: 170px 0 155px;
+    background-image: url('../../images/decor-bg.jpg');    
+    background-size: cover;
+    background-repeat: no-repeat;    
+}

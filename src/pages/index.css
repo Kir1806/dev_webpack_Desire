@@ -1,5 +1,6 @@
 @import url('../vendor/font.css');
 @import url('../blocks/global/global.css');
+@import url('../blocks/vars/vars.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/logo/logo.css');
@@ -8,6 +9,9 @@
 @import url('../blocks/breadcrumbs/breadcrumbs.css');
 @import url('../blocks/top/top.css');
 @import url('../blocks/top-swiper/top-swiper.css');
+@import url('../blocks/new-collection/new-collection.css');
+@import url('../blocks/collection/collection.css');
+@import url('../blocks/decor/decor.css');
 
 @import url('../blocks/footer/footer.css');
 

@@ -1,9 +1,4 @@
 :root {
     --default: #5a5a5a;
     --title: #363838;
-    --font-title:'Montserrat', sans-serif;
-    --ft-weight: 700;
-
-    --font-title: font-family:'Montserrat', sans-serif; font-weight: 700;
-
 }

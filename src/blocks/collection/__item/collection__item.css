@@ -1,0 +1,6 @@
+.collection__item {
+    position: relative;
+}
+.collection__item:hover .collection__info{
+    opacity: 1;
+}

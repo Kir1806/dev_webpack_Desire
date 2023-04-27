@@ -1,0 +1,21 @@
+.new-collection__title {
+    color: var(--title);
+    font-size: 35px;
+    line-height: 51px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.new-collection__title::after {
+    position: absolute;
+    content: '';
+    width: 250px;
+    height: 1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: #6d7278;
+}

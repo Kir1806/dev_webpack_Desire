@@ -1,0 +1,21 @@
+.decor__title {
+    max-width: 730px;
+    color: var(--title);
+    font-size: 60px;
+    line-height: 80px;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.decor__title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 1px;
+    bottom: 0;
+    background-color: #6d7278;
+}

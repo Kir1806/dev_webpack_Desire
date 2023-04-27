@@ -1,0 +1,7 @@
+@import url('./__title/new-collection__title.css');
+@import url('./__text/new-collection__text.css');
+
+.new-collection {
+    text-align: center;
+    padding: 45px 0 35px;
+}

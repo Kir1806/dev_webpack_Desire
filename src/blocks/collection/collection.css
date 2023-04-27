@@ -1,0 +1,12 @@
+@import url('./__item/collection__item.css');
+@import url('./__images/collection__images.css');
+@import url('./__info/collection__info.css');
+@import url('./__info-title/collection__info-title.css');
+@import url('./__info-text/collection__info-text.css');
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 70px;
+}
