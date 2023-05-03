@@ -12,6 +12,9 @@ body {
 	overflow-x: hidden;
 	min-width: 300px;
 }
+a{
+	text-decoration: none;
+  }
 
 .wrapper {
 	display: flex;

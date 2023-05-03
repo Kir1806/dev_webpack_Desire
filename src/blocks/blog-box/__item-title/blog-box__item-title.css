@@ -1,0 +1,7 @@
+.blog-box__item-title {
+    color: var(--title);
+    font-size: 24px;
+    line-height: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+}

@@ -1,0 +1,12 @@
+@import url('./__title/blog-box__title.css');
+@import url('./__items/blog-box__items.css');
+@import url('./__img-link/blog-box__img-link.css');
+@import url('./__links/blog-box__links.css');
+@import url('./__date/blog-box__date.css');
+@import url('./__author/blog-box__author.css');
+@import url('./__theme/blog-box__theme.css');
+@import url('./__item-title/blog-box__item-title.css');
+
+.blog-box {
+    padding-bottom: 100px;
+}
