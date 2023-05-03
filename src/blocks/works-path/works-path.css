@@ -1,0 +1,11 @@
+@import url('./__title/works-path__title.css');
+@import url('./__items-box/works-path__items-box.css');
+@import url('./__item/works-path__item.css');
+@import url('./__item-title/works-path__item-title.css');
+@import url('./__item-text/works-path__item-text.css');
+
+
+.works-path {
+    padding: 80px 0 30px;
+    border: 1px solid red;
+}

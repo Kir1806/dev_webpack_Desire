@@ -1,0 +1,9 @@
+.works-path__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: var(--title);
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 51px;
+}

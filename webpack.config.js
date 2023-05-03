@@ -97,8 +97,8 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({filename: 'styles/[name].[contenthash].css'})        
     ],
-    devServer: {
-        watchFiles: ["src/*.html"],
-        hot: true
-    }
+    // devServer: {
+    //     watchFiles: ["src/*.html"],
+    //     hot: true,
+    // }
 };

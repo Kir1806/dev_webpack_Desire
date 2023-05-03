@@ -1,0 +1,6 @@
+.works-path__item-title {
+    margin-left: 13px;
+    color: var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}

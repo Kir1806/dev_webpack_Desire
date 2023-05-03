@@ -1,0 +1,14 @@
+.works-path__item--production {
+    margin-left: 317px;
+    padding-bottom: 38px;
+}
+.works-path__item--production::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 2px;
+    /* background-color: rgba(var(--title), .7); */
+    background-color: rgba(54, 56, 56, .7);
+}
