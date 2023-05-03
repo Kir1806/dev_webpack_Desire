@@ -1,6 +1,7 @@
 import "../pages/index.css";
 
-import { topSwiper }from './components/swiper';
+import { topSwiper } from './components/swiper';
+import { mixer } from './components/mixitup';
 
 const headerButton = document.querySelector('.header__button');
 const rightsideMenu = document.querySelector('.rightside-menu');

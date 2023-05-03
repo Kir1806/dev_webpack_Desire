@@ -1,0 +1,22 @@
+@import url('./__buttons/gallery__buttons.css');
+@import url('./__button/gallery__button.css');
+@import url('./__items/gallery__items.css');
+@import url('./__item/gallery__item.css');
+
+.gallery {
+    padding: 80px 0 90px;
+}
+
+.gallery.gallery-page .gallery__item img {
+    max-height: 1165px;
+}
+.gallery.gallery-page .gallery__item:nth-child(8) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.mixitup-control-active {
+    background-color: #FFEF35;
+    color: var(--title);
+    border: 1px solid #FFEF35;
+}

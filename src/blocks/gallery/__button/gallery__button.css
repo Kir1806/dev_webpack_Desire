@@ -1,0 +1,11 @@
+.gallery__button {
+    margin: 0 13px;
+    background-color: transparent;
+    border: 1px solid #454647;
+    border-radius: 20px;
+    padding: 6px 16px;
+    color: #8f8d8d;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer; 
+}
