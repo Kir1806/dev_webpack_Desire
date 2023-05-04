@@ -1,0 +1,7 @@
+.about__prev-title {
+    color: var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px; 
+}
