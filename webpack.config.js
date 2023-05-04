@@ -26,7 +26,10 @@ module.exports = {
     mode,
     plugins,
     devtool: 'source-map',
-    entry: './src/scripts/index.js',
+    entry: {
+        main: './src/scripts/index.js',
+        about: './src/scripts/about/about.js'
+    },
 
     output: {
         filename: 'scripts/[name].[contenthash].js', // '[chunkhash].[id].chunk.js', //'[name].[chunkhash].js', //'bundle.js',
@@ -94,6 +97,11 @@ module.exports = {
             // inject: false,
             template: 'src/index.html',
             filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            // inject: false,
+            template: 'src/about.html',
+            filename: 'about.html'
         }),
         new MiniCssExtractPlugin({filename: 'styles/[name].[contenthash].css'})        
     ],
