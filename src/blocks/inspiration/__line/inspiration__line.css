@@ -1,0 +1,6 @@
+.inspiration__line {
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--title);
+    margin-top: -2px;
+}

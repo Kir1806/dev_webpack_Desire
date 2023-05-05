@@ -1,0 +1,24 @@
+@import url('./__inner/inspiration__inner.css');
+@import url('./__images/inspiration__images.css');
+@import url('./__title/inspiration__title.css');
+@import url('./__text/inspiration__text.css');
+@import url('./__content/inspiration__content.css');
+@import url('./__item/inspiration__item.css');
+@import url('./__item-content/inspiration__item-content.css');
+@import url('./__line/inspiration__line.css');
+
+.inspiration {
+    padding-top: 100px;
+    position: relative;
+}
+
+.inspiration::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../../images/inspiration-bg.jpg');
+    height: 362px;
+    z-index: -1;  
+}
