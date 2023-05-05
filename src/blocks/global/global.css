@@ -15,6 +15,9 @@ body {
 a{
 	text-decoration: none;
   }
+ul {
+	list-style-type: none;
+}
 
 .wrapper {
 	display: flex;
