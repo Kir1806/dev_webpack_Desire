@@ -1,0 +1,6 @@
+@import url('./__items/partners__items.css');
+@import url('./__item/partners__item.css');
+
+.partners {
+    padding: 16px 0 16px;
+}
