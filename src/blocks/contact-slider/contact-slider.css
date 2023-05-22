@@ -1,7 +1,9 @@
 @import url('./__link/contact-slider__link.css');
 @import url('./__img/contact-slider__img.css');
 @import url('./__title/contact-slider__title.css');
+@import url('./__item/contact-slider__item.css');
 
-.contact-slider {
+.contact-slider {     
     padding-bottom: 102px;
+    
 }

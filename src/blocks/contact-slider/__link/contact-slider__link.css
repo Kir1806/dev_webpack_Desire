@@ -2,8 +2,8 @@
     position: relative;
     margin-bottom: 20px;
 }
-.contact-slider__link:hover {
-    .contact-slider__title {
-        opacity: 1;
-    }
+.contact-slider__link:hover > .contact-slider__title {
+    background-color: rgba(255, 255, 255, .6);
+    opacity: 1;
+    
 }
