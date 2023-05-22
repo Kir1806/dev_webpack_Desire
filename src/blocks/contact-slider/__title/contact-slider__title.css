@@ -1,0 +1,20 @@
+.contact-slider__title {
+    transition: all .5s;
+    width: 100%;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;/* было space-between */
+    align-items: center;
+    background-color: rgba(#fff, .6);
+    color: var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 0 6px;
+    text-align: center;
+    opacity: 0;
+}

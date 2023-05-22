@@ -1,0 +1,16 @@
+@import url('./__title/contact__title.css');
+@import url('./__social/contact__social.css');
+@import url('./__social-item/contact__social-item.css');
+@import url('./__text/contact__text.css');
+@import url('./__phone/contact__phone.css');
+@import url('./__box/contact__box.css');
+@import url('./__city/contact__city.css');
+@import url('./__form/contact__form.css');
+@import url('./__form-input/contact__form-input.css');
+@import url('./__form-area/contact__form-area.css');
+@import url('./__form-button/contact__form-button.css');
+
+
+.contact {
+    padding-bottom: 100px;
+}

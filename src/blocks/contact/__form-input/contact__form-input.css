@@ -1,0 +1,16 @@
+.contact__form-input {
+    border: 1px solid #dfdfdf;
+    border-radius: 20px;
+    padding: 6px 17px;
+    margin-bottom: 13px;
+    width: 48%;
+}
+
+.contact__form-input::placeholder {
+    color: #a1a1a1;
+    font-size: 16px;            
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;    
+}

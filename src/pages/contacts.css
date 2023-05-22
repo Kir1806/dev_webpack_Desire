@@ -1,0 +1,11 @@
+@import url('../vendor/font.css');
+@import url('../blocks/global/global.css');
+@import url('../blocks/vars/vars.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/breadcrumbs/breadcrumbs.css');
+@import url('../blocks/map/map.css');
+@import url('../blocks/contact/contact.css');
+@import url('../blocks/contact-slider/contact-slider.css');
+
+@import url('../blocks/footer/footer.css')

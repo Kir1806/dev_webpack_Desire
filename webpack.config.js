@@ -28,7 +28,8 @@ module.exports = {
     devtool: 'source-map',
     entry: {
         main: './src/scripts/index.js',
-        about: './src/scripts/about/about.js'
+        about: './src/scripts/about/about.js',
+        contacts: './src/scripts/contacts/contacts.js'
     },
 
     output: {
@@ -102,6 +103,11 @@ module.exports = {
             // inject: false,
             template: 'src/about.html',
             filename: 'about.html'
+        }),
+        new HtmlWebpackPlugin({
+            // inject: false,
+            template: 'src/contacts.html',
+            filename: 'contacts.html'
         }),
         new MiniCssExtractPlugin({filename: 'styles/[name].[contenthash].css'})        
     ],

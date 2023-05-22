@@ -1,0 +1,6 @@
+.contact__form {
+    padding-left: 284px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

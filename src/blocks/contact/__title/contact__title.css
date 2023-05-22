@@ -1,0 +1,20 @@
+.contact__title {
+    color: var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.contact__title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 200px;
+    background-color: #6d7278;
+}

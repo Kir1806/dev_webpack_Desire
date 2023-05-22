@@ -1,0 +1,9 @@
+.contact-slider__link {
+    position: relative;
+    margin-bottom: 20px;
+}
+.contact-slider__link:hover {
+    .contact-slider__title {
+        opacity: 1;
+    }
+}
