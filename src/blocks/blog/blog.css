@@ -1,0 +1,24 @@
+@import url('./__inner/blog__inner.css');
+@import url('./__category/blog__category.css');
+@import url('./__category-title/blog__category-title.css');
+@import url('./__tags-title/blog__tags-title.css');
+@import url('./__category-item/blog__category-item.css');
+@import url('./__category-link/blog__category-link.css');
+@import url('./__tags/blog__tags.css');
+@import url('./__tags-link/blog__tags-link.css');
+@import url('./__social/blog__social.css');
+@import url('./__social-item/blog__social-item.css');
+@import url('./__items/blog__items.css');
+@import url('./__item/blog__item.css');
+@import url('./__item-img/blog__item-img.css');
+@import url('./__item-info/blog__item-info.css');
+@import url('./__item-title/blog__item-title.css');
+@import url('./__blockquote/blog__blockquote.css');
+@import url('./__blockquote-author/blog__blockquote-author.css');
+@import url('./__item-popup/blog__item-popup.css');
+
+
+
+.blog {
+    padding: 60px 0 120px;
+}

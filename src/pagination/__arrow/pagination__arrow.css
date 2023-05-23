@@ -1,0 +1,5 @@
+@import url('./_disabled/pagination__arrow--disabled.css');
+
+.pagination__arrow {
+    margin: 0 6px;
+}

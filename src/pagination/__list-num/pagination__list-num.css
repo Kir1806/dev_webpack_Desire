@@ -1,0 +1,7 @@
+@import url('./_active/pagination__list-num--active.css');
+
+.pagination__list-num {
+    font-weight: 600;
+    font-size: 14px;
+    color: #707070;
+}

@@ -1,0 +1,7 @@
+.blog__tags-title {
+    margin-bottom: 16px;
+    color:var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 23px;
+}

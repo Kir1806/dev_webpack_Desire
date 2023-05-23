@@ -1,0 +1,9 @@
+.blog__item-info {
+    padding: 25px 0 10px;
+    font-weight: 600px;
+    font-size: 14px;
+    color: #707070;
+}
+.blog__item-info a {
+    color: inherit;
+}

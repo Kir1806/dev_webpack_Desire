@@ -1,0 +1,7 @@
+.recent-posts__title {
+    margin-bottom: 24px;
+    color: var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 23px;
+}

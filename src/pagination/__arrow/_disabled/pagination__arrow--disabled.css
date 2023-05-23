@@ -1,0 +1,4 @@
+.pagination__arrow--disabled {
+    opacity: 0;
+    pointer-events: none;
+}

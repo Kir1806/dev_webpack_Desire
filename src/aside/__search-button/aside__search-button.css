@@ -1,0 +1,8 @@
+.aside__search-button {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    cursor: pointer;
+}

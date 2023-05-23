@@ -55,6 +55,8 @@ add-swiper
 
  проверить центровку works-path__items
 
+ search and slider доделать
+
 
 
 
