@@ -1,0 +1,5 @@
+@import url('../vendor/font.css');
+@import url('../blocks/global/global.css');
+@import url('../blocks/vars/vars.css');
+
+@import url('../blocks/footer/footer.css');
