@@ -1,5 +1,6 @@
 @import url('./__inner/blog__inner.css');
 @import url('./__category/blog__category.css');
+@import url('./__category-list/blog__category-list.css');
 @import url('./__category-title/blog__category-title.css');
 @import url('./__tags-title/blog__tags-title.css');
 @import url('./__category-item/blog__category-item.css');

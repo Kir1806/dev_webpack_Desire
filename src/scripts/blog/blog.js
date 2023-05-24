@@ -1,1 +1,4 @@
 import '../../pages/blog.css';
+
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";

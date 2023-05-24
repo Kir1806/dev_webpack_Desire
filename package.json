@@ -33,6 +33,7 @@
     "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
+    "@fancyapps/ui": "^5.0.18",
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.4.1",
     "normalize.css": "^8.0.1",
