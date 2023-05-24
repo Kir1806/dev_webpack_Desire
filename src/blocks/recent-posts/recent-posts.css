@@ -1,6 +1,8 @@
 @import url('./__title/recent-posts__title.css');
 @import url('./__item/recent-posts__item.css');
 @import url('./__item-title/recent-posts__item-title.css');
+@import url('./__date/recent-posts__date.css');
+@import url('./__author/recent-posts__author.css');
 
 .recent-posts {
     margin-bottom: 40px;

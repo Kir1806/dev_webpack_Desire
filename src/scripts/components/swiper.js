@@ -28,4 +28,17 @@ const contactSwiper = new Swiper('.contact-swiper', {
     },
 });
 
+const articleSwiper = new Swiper('.contact-swiper', {
+    modules: [Pagination, Autoplay],
+    loop: true,
+    spaceBetween: 10, 
+    autoplay: {
+        delay: 10000,
+    },
+    pagination: {
+        el: '.contact-swiper-pagination',
+        type: 'bullets',
+    },
+});
+
 export {topSwiper, contactSwiper};

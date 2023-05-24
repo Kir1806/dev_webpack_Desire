@@ -3,10 +3,10 @@
 @import url('../blocks/vars/vars.css');
 
 @import url('../blocks/blog/blog.css');
-@import url('../article-popup/article-popup.css');
-@import url('../article-slider/article-slider.css');
-@import url('../recent-posts/recent-posts.css');
-@import url('../aside/aside.css');
-@import url('../pagination/pagination.css');
+@import url('../blocks/article-popup/article-popup.css');
+@import url('../blocks/article-slider/article-slider.css');
+@import url('../blocks/recent-posts/recent-posts.css');
+@import url('../blocks/aside/aside.css');
+@import url('../blocks/pagination/pagination.css');
 
 @import url('../blocks/footer/footer.css');
