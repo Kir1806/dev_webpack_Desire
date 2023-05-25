@@ -3,5 +3,15 @@
 @import url('./__arrowright/article-slider__arrowright.css');
 
 .article-slider {
-
+    overflow: hidden;
+    position: relative;
 }
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+

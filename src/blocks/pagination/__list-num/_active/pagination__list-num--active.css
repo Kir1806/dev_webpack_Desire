@@ -1,3 +1,4 @@
 .pagination__list-num--active {
-    color: var(--title);
+    color: var(--title)!important;
+    /* color: var(--title); */
 }

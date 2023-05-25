@@ -55,6 +55,11 @@ add-swiper
 
  проверить центровку works-path__items
 
+ добавил fancybox
+
+добавить слайдер
+
+разобраться с приоритетом pagination__list-num--active
  
 
 

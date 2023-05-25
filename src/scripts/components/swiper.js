@@ -1,4 +1,4 @@
-import Swiper, { Pagination, Autoplay } from "swiper";
+import Swiper, { Pagination, Autoplay, Navigation } from "swiper";
 import 'swiper/css';
 import '../../../node_modules/swiper/swiper-bundle.min.css';
 // Swiper.use([Pagination]);
@@ -28,17 +28,15 @@ const contactSwiper = new Swiper('.contact-swiper', {
     },
 });
 
-const articleSwiper = new Swiper('.contact-swiper', {
-    modules: [Pagination, Autoplay],
+const articleSwiper = new Swiper('.article-swiper', {
+    modules: [Navigation],
     loop: true,
-    spaceBetween: 10, 
-    autoplay: {
-        delay: 10000,
-    },
-    pagination: {
-        el: '.contact-swiper-pagination',
-        type: 'bullets',
-    },
+    spaceBetween: 15,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+
 });
 
-export {topSwiper, contactSwiper};
+export {topSwiper, contactSwiper, articleSwiper};

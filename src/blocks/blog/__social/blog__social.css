@@ -1,3 +1,4 @@
 .blog__social {
     display: flex;
+    padding-left: 0;
 }

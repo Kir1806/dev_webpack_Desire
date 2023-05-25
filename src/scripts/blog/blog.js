@@ -1,4 +1,5 @@
 import '../../pages/blog.css';
-
-import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
+// import { articleSwiper } from '../components/swiper';
+import { Fancybox } from "@fancyapps/ui";
