@@ -30,7 +30,8 @@ module.exports = {
         main: './src/scripts/index.js',
         about: './src/scripts/about/about.js',
         contacts: './src/scripts/contacts/contacts.js',
-        blog: './src/scripts/blog/blog.js'
+        blog: './src/scripts/blog/blog.js',
+        blog_one: './src/scripts/blog-one/blog-one.js'
     },
 
     output: {
@@ -115,10 +116,15 @@ module.exports = {
             template: 'src/blog.html',
             filename: 'blog.html'
         }),
+        new HtmlWebpackPlugin({
+            // inject: false,
+            template: 'src/blog-one.html',
+            filename: 'blog-one.html'
+        }),
         new MiniCssExtractPlugin({filename: 'styles/[name].[contenthash].css'})        
     ],
     // devServer: {
-    //     watchFiles: ["src/*.html"],
+    //     watchFiles: ["src/blog-one.html"],
     //     hot: true,
     // }
 };

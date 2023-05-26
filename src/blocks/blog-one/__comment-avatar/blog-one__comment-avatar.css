@@ -1,0 +1,7 @@
+.blog-one__comments-avatar {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 13px; 
+}

@@ -1,0 +1,8 @@
+.blog-one__link-next {
+    padding-right: 44px;
+    text-align: right;
+}
+.blog-one__link-next::before {
+    background-image: url('../../../images/arrow-next.svg');
+    right: 0;
+}

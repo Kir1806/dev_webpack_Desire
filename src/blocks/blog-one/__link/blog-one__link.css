@@ -1,0 +1,15 @@
+.blog-one__link {
+    width: 243px;
+    position: relative;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 600;
+}
+.blog-one__link::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 23px;  
+}

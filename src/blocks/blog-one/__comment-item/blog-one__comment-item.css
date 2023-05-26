@@ -1,0 +1,6 @@
+.blog-one__comments-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 40px;
+}

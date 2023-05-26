@@ -1,0 +1,9 @@
+.blog-one__form-button {
+    border: none;
+    background-color: var(--title);
+    color: #fffff0;
+    font-weight: 600;
+    border-radius: 21px;
+    padding: 6px 60px;
+    cursor: pointer;
+}

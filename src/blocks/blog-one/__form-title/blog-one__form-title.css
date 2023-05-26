@@ -1,0 +1,7 @@
+.blog-one__form-title {
+    margin-bottom: 25px;
+    color: var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 23px;
+}

@@ -1,0 +1,18 @@
+
+.blog-one__item p {
+    margin-bottom: 40px;
+}
+
+.blog-one__item blockquote {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--title);
+    margin-bottom: 30px;
+    padding: 0 40px;
+}
+
+.blog-one__item .blog__blockquote-author::before {
+    margin-right: auto;
+    margin-left: 0;
+}

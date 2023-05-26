@@ -3,7 +3,7 @@
 @import url('./__link/breadcrumbs__link.css');
 
 .breadcrumbs {
-    background: rgba(#dfdfdf, .5);
+    background: rgba(223, 223, 223, .5);;
     padding: 13px 14px;
     position: relative;
     z-index: 9;

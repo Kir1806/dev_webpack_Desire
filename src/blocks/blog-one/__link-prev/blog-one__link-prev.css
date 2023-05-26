@@ -1,0 +1,7 @@
+.blog-one__link-prev {
+    padding-left: 44px;
+}
+.blog-one__link-prev::before {
+    background-image: url('../../../images/arrow-prev.svg');
+    left: 0;
+}

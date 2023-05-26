@@ -1,0 +1,8 @@
+.blog-one__comments-title {
+    color: var(--title);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 31px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}

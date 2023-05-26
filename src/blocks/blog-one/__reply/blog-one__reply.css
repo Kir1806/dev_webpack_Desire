@@ -1,0 +1,9 @@
+.blog-one__reply {
+    background-color: transparent;
+    margin-left: 5px;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #707070;
+}
