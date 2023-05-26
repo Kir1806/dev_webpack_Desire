@@ -8,3 +8,6 @@
     position: relative;
     z-index: 9;
 }
+.background--none {
+    background: none;
+}
