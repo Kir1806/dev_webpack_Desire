@@ -123,8 +123,9 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({filename: 'styles/[name].[contenthash].css'})        
     ],
-    // devServer: {
-    //     watchFiles: ["src/blog-one.html"],
-    //     hot: true,
-    // }
+    devServer: {
+        watchFiles: ["*.html"],
+        static: './dist',
+        hot: true,
+    }
 };
