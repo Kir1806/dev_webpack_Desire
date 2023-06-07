@@ -31,7 +31,8 @@ module.exports = {
         about: './src/scripts/about/about.js',
         contacts: './src/scripts/contacts/contacts.js',
         blog: './src/scripts/blog/blog.js',
-        blog_one: './src/scripts/blog-one/blog-one.js'
+        blog_one: './src/scripts/blog-one/blog-one.js',
+        gallery: './src/scripts/gallery/gallery.js'
     },
 
     output: {
@@ -120,6 +121,11 @@ module.exports = {
             // inject: false,
             template: 'src/blog-one.html',
             filename: 'blog-one.html'
+        }),
+        new HtmlWebpackPlugin({
+            // inject: false,
+            template: 'src/gallery.html',
+            filename: 'gallery.html'
         }),
         new MiniCssExtractPlugin({filename: 'styles/[name].[contenthash].css'})        
     ],
