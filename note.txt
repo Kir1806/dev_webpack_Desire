@@ -60,7 +60,9 @@ add-swiper
 добавить слайдер
 
 разобраться с приоритетом pagination__list-num--active
- 
+
+
+ установил cross_env разграничил production и development режимы
 
 
 

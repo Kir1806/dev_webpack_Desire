@@ -8,10 +8,17 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");//
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");//
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
-let mode = 'development';
+// let mode = 'development';
+// let devtool = 'source-map';
 if (process.env.NODE_ENV === 'production') {
   mode = 'production';
+  devtool = false;
+} else { 
+    mode = 'development';
+    devtool = 'source-map';
 }
+console.log(mode); 
+
 
 const plugins = [
     new HtmlWebpackPlugin({
@@ -25,7 +32,7 @@ const plugins = [
 module.exports = {
     mode,
     plugins,
-    devtool: 'source-map',
+    devtool,
     entry: {
         main: './src/scripts/index.js',
         about: './src/scripts/about/about.js',
@@ -42,7 +49,7 @@ module.exports = {
         assetModuleFilename: 'assets/images/[name].[contenthash].[ext]', //если название папки с картинками другое, не забудьте поменять
         environment: {
             arrowFunction: false,
-        },
+        },        
     },
     
     module: {
