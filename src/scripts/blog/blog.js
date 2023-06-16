@@ -1,3 +1,4 @@
+import 'normalize.css';
 import '../../pages/blog.css';
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 

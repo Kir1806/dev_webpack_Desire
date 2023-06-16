@@ -1,3 +1,4 @@
+import 'normalize.css';
 import "../pages/index.css";
 
 import { topSwiper } from './components/swiper';

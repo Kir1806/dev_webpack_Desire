@@ -64,6 +64,8 @@ add-swiper
 
  установил cross_env разграничил production и development режимы
 
+ только сейчас заметил, что не подключил normalize.css бля
+
 
 
 
