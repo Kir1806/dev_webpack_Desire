@@ -1,3 +1,6 @@
 .footer__social-link--pinterest::before {
     background-image: url('../../../../images/Pinterest.svg');
+    top: -1px;
+    width: 16px; 
+    height: 16px;
 }

@@ -1,3 +1,6 @@
 .footer__social-link--facebook::before {
     background-image: url('../../../../images/facebook.svg');
+    width: 16px;
+    height: 16px;
+    top: 1px;
 }
