@@ -1,6 +1,6 @@
 .works-path__item--production {
     margin-left: 317px;
-    padding-bottom: 38px;
+    padding-bottom: 90px;
 }
 .works-path__item--production::after {
     content: '';
